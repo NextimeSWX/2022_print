@@ -9,3 +9,6 @@
 #include "stu.h"
 
 int main(void)
+{
+    stu_dprintf(2, "le plus grand %s c'est %c", "mechant", 'A');
+}

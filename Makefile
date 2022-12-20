@@ -7,6 +7,9 @@
 NAME	=	printf
 
 SRCS	=	src/dprintf.c		\
+		src/%s.c		\
+		src/stu_strlen.c	\
+		src/%c.c		\
 		src/main.c
 
 OBJS	=	$(SRCS:.c=.o)
